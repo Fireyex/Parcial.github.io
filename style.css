@@ -1,10 +1,13 @@
 *{
-    --color1: #fa3e3e;
+    --color1: #f82424;
+    margin: 0;
+    padding: 0;
 }
 
 body{
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/portada.jpg) no-repeat center center fixed;
     background-size: cover;
+    font-family: "Arima";
 }
 
 #portadadiv{
@@ -13,7 +16,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.61);
     backdrop-filter: blur(5px);
     text-align: center;
     color: white;
@@ -72,21 +75,30 @@ h1{
     transition: 0.8s;
 }
 
+.actual{
+    text-decoration:underline;
+    text-decoration-thickness: 3px;
+}
+
 header{
-    margin: 0 auto;
     width: 60%;
     background-color: white;
+    border: 5px solid black;
     text-align: center;
     padding-bottom: 1px;
-    border-radius: 10px 10px 0 0;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0%);
+    box-sizing: border-box;
 }
 
 main{
+    border: 5px solid black;
     margin: 0 auto;
     width: 60%;
     background-color: white;
     text-align: center;
-    padding: 10px 50px;
+    padding: 200px 50px 10px 50px;
     box-sizing: border-box;
 }
 
@@ -119,7 +131,6 @@ main{
 }
 
 footer{
-    border: 5px solid white;
     border-radius: 0 0 10px 10px;
     margin: 0 auto;
     width: 60%;
@@ -128,3 +139,25 @@ footer{
     padding: 10px;
     box-sizing: border-box;
 }
+
+iframe{
+    width: 500px;
+    height: 315px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.galeria div {
+    margin: 10px;
+}
+
+.galeria img {
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+}
+
