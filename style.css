@@ -1,0 +1,130 @@
+*{
+    --color1: #fa3e3e;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/portada.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#portadadiv{
+    width: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    color: white;
+    font-family: "Playwrite GB S";
+    padding: 0 100px;
+}
+
+h1{
+    font-size: 80px;
+    margin: 30px 0 0 0;
+    font-family: "Merriweather", serif;
+    color: var(--color1);
+}
+
+#menu{
+    margin: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+#menu a{
+    text-decoration: none;
+}
+
+#menu a li{
+    list-style: none;
+    padding: 10px 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.liportada:hover{
+    background: rgba(255, 255, 255, 0.4);
+    transition: 0.5s;
+}
+
+#menufavicon a i{
+    padding: 10px 20px;
+    color: white;
+}
+
+#menufavicon a i:hover{
+    background: rgba(255, 255, 255, 0.4);
+    transition: 0.5s;
+}
+
+.liportada{
+    color: var(--color1);
+}
+
+.liotros{
+    color: black;
+}
+
+.liotros:hover{
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+}
+
+header{
+    margin: 0 auto;
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 1px;
+    border-radius: 10px 10px 0 0;
+}
+
+main{
+    margin: 0 auto;
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    padding: 10px 50px;
+    box-sizing: border-box;
+}
+
+
+#tituloblog img{
+    max-width: 50%;
+}
+
+.lugar{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    text-align: justify;
+}
+
+.lugar img{
+    max-width: 90%;
+}
+
+.porciento30{
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.porciento70{
+    width: 70%;
+    margin: top;
+    box-sizing: border-box;
+}
+
+footer{
+    border: 5px solid white;
+    border-radius: 0 0 10px 10px;
+    margin: 0 auto;
+    width: 60%;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
